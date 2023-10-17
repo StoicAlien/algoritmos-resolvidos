@@ -54,7 +54,7 @@ public class Main {
                 scanner.nextLine();
             }
         }
-
+        scanner.close();
         /*HardCoded values to populate "associacao" object*/
         popularAssociacao();
         for (Fazenda a : fazendas) {
